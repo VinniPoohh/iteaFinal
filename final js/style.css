@@ -1,0 +1,156 @@
+body {
+  background-image: url('./bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Noto Serif', serif;
+  font-size: 55px;
+  color: rgb(226, 40, 40);
+  text-shadow: 2px 2px 4px rgb(5, 226, 226);
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+
+li:hover {
+    color: rgb(226, 40, 40);
+    
+  }
+
+
+
+.birth-year,
+.eye-color,
+.gender,
+.hair-color,
+.height,
+.mass {
+  font-size: 18px;
+  font-family: Arial;
+  color: rgb(255, 196, 0);
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+
+.character-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  }
+
+#characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #068f24;
+  font-size: 18px;
+  font-family: 'Noto Sans SC', sans-serif;
+
+}
+
+
+#characters-list li {
+  width: 50%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+  
+.modal-content {
+  position: relative;
+  background: linear-gradient(135deg, #ee1258 0%, #5fc3e4 100%);
+  margin: 10% auto;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 200px;
+  text-align: center;
+  border-radius: 3px;
+}
+  
+.modal-heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  color: rgb(7, 74, 199);
+  
+}
+  
+.modal p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Bruno Ace SC', cursive;
+}
+  
+.modal span {
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
